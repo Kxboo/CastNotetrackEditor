@@ -88,9 +88,11 @@ Each NotificationTrack has a name such as `end`, `loop_end`, `snd_...` or `xstri
 ## Viewing Notetracks in Blender
 Pose markers appear in the Action Editor as small triangles along the top labeled with the notetrack name. To make them visible:
 
-1. Open a Dopesheet editor
-2. Switch the mode dropdown to **Action Editor**
-3. Open the **Marker** menu and enable **Show Pose Markers**
+1. Once you import an animation open the Cast Panel on the right of Blender.
+2. Click Refresh on the Cast Panel to update the current list.
+3. Open a Dopesheet editor
+4. Switch the mode dropdown to **Action Editor**
+5. Open the **Marker** menu and enable **Show Pose Markers**
 
 > Pose markers do not appear in the regular Timeline by default in Blender 3.6.
 
