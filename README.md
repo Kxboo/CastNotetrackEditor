@@ -23,7 +23,7 @@ Only `cast_notetrack_editor.py` and `__init__.py` need to be replaced.
 ## Manual Install
 Copy `cast_notetrack_editor.py` into your cast addon folder next to `__init__.py`, `cast.py`, `import_cast.py` and `export_cast.py`.
 
-Then in `__init__.py` add the following:
+Then in `__init__.py` add the following if you didn't replace it:
 
 At the top:
 ```python
