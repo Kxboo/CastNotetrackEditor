@@ -7,10 +7,10 @@ Notetrack Viewer and Editor for Blender
 
 ## Installation
 
-### Quick Update
+### (Option 1) Quick Update
 Only `cast_notetrack_editor.py` and `__init__.py` need to be replaced.
 
-### Clean Install
+### (Option 2)Clean Install
 1. Download this repo as a zip
 2. Open Blender
 3. Go to **Edit → Preferences → Add-ons → Install**
@@ -20,7 +20,7 @@ Only `cast_notetrack_editor.py` and `__init__.py` need to be replaced.
 
 ---
 
-## Manual Install
+## (Option 3)Manual Install
 Copy `cast_notetrack_editor.py` into your cast addon folder next to `__init__.py`, `cast.py`, `import_cast.py` and `export_cast.py`.
 
 Then in `__init__.py` add the following if you didn't replace the file:
