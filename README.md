@@ -90,7 +90,7 @@ Pose markers appear in the Action Editor as small triangles along the top labele
 
 1. Once you import an animation open the Cast Panel on the right of Blender.
 2. Click Refresh on the Cast Panel to update the current list.
-3. Open a Dopesheet editor
+3. To view them on the Timline Open a Dopesheet editor
 4. Switch the mode dropdown to **Action Editor**
 5. Open the **Marker** menu and enable **Show Pose Markers**
 
