@@ -3,13 +3,13 @@ import os
 
 from bpy.props import *
 from bpy_extras.io_utils import ExportHelper, ImportHelper
-
+from . import cast_notetrack_editor
 from .shared_cast import utilityIsVersionAtLeast
 
 bl_info = {
     "name": "Cast Support",
     "author": "DTZxPorter",
-    "version": (1, 9, 5),
+    "version": (1, 9, 3),
     "blender": (3, 6, 0),
     "location": "File > Import",
     "description": "Import & Export Cast",
@@ -263,7 +263,7 @@ def register():
     bpy.utils.register_class(ExportCast)
     bpy.utils.register_class(CastProperties)
     bpy.utils.register_class(CastImportScenePanel)
-
+    cast_notetrack_editor.register()
     bpy.types.TOPBAR_MT_file_import.append(menu_func_cast_import)
     bpy.types.TOPBAR_MT_file_export.append(menu_func_cast_export)
 
@@ -278,7 +278,7 @@ def unregister():
     bpy.utils.unregister_class(ExportCast)
     bpy.utils.unregister_class(CastImportScenePanel)
     bpy.utils.unregister_class(CastProperties)
-
+    cast_notetrack_editor.unregister()
     bpy.types.TOPBAR_MT_file_import.remove(menu_func_cast_import)
     bpy.types.TOPBAR_MT_file_export.remove(menu_func_cast_export)
 
