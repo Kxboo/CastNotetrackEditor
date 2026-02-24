@@ -98,5 +98,5 @@ Pose markers appear in the Action Editor as small triangles along the top labele
 
 ---
 
-## Based On / Forked From
+## Based On
 [DTZxPorter's Cast](https://github.com/dtzxporter/cast/releases)
