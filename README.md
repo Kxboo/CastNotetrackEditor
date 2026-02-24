@@ -82,7 +82,6 @@ Each NotificationTrack has a name such as `end`, `loop_end`, `snd_...` or `xstri
 - Jump button on each row sets the scene to that frame
 - Apply Changes writes edits back to the action's pose markers
 - Write to .cast file exports updated notetracks into an existing `.cast` file replacing old NotificationTrack nodes
-- A Notetracks button in the Action Editor header opens a popup with the full editor without needing the N-panel
 
 ---
 
